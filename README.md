@@ -1,5 +1,7 @@
 # 🚀 InsightStream: Real-Time Market Intelligence Dashboard
 
+**Live Demo:** [https://insight-stream-l0qmkpf6w-samikshaglas-projects.vercel.app/](https://insight-stream-l0qmkpf6w-samikshaglas-projects.vercel.app/)
+
 InsightStream is an Intelligent Multi-Source Insights Engine designed to parse financial text data, perform Named Entity Recognition (NER), and generate an AI-powered summary with a market sentiment score. It features a modern, real-time dashboard built for data science and AI-driven finance.
 
 ---
