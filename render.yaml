@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: insightstream-backend
+    env: python
+    buildCommand: "cd backend && pip install -r requirements.txt && python -m spacy download en_core_web_sm"
+    startCommand: "cd backend && gunicorn main:app -k uvicorn.workers.UvicornWorker"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.4
+      - key: HF_API_KEY
+        sync: false # User will add this in the Render dashboard if they have one
